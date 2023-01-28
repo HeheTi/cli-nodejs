@@ -23,6 +23,7 @@
   },
   "keywords": [],
   "dependencies": {
+    "commander": "^10.0.0",
     "nanoid": "3.3.4",
     "yargs": "^17.6.2"
   }

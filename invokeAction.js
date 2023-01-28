@@ -9,6 +9,7 @@ const {
 const invokeAction = async (args) => {
   const { action, id: idContact, name, email, phone } = args;
   const id = String(idContact);
+  // const { action, id, name, email, phone } = args;
 
   try {
     switch (action) {
